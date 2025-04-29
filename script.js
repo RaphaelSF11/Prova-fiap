@@ -83,14 +83,3 @@ if (window.matchMedia("(max-width: 412px)").matches) {
         mobileObserver.observe(el);
     });
 }
-
-//accordions
-const accordions = document.querySelectorAll('.accordion');
-
-accordions.forEach(accordion => {
-    accordions.addEventListener('click', () => {
-        const content = accordion.querySelector('.accordion-content');
-        content.classList.toggle('active')
-
-    })
-})
