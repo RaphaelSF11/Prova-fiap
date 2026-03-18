@@ -75,7 +75,7 @@ const mobileObserver = new IntersectionObserver((entries) => {
             entry.target.classList.add("show");
         }
     });
-}, { threshold: 0.1 });
+}, { threshold: 1 });
 
 if (window.matchMedia("(max-width: 412px)").matches) {
     elements.forEach(el => {

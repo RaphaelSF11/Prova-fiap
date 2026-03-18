@@ -73,6 +73,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .cabecalho {
     background-color: var(--cor-chinese-black);
     width: 100%;
@@ -608,6 +612,136 @@
     transition: 0.5s;
 }
 
+ /* Layout desktop tela 1366 x 768 */
+
+@media screen and (max-width: 1366px){
+
+    html, body {
+        overflow-x: hidden;
+}
+
+  .container_img_logo {    
+    margin-left: 35px;
+}
+
+ .container_texto {
+    margin-left: 40px;
+
+}   
+ .container_titulo {
+    font-size: 3.8rem;
+}
+
+.container_subtitulo {
+    font-size: 3.8rem;
+}
+
+.container_descricao {
+    font-size: 18px;
+    width: 690px;
+    height: 80px;
+    line-height: 20px;
+}
+
+.container_botao_scroll {
+    margin-left: 50%;
+    margin-top: 60px;
+}
+
+.container_botao_scroll:hover {
+    transform: translateY(5px);
+}
+
+.container_botao_titulo {
+    font-size: 10px;    
+}
+
+.container_botao_seta {  
+    width: 40px;
+    height: 40px;
+}
+
+.seta_down {
+    width: 17px;
+}
+
+/* Segunda section */
+
+.caixa_container_secundario{
+    margin: 60px 30px;
+    
+}
+
+.container_secundario_titulo{
+    font-size: 60px;    
+   
+}
+.container_secundario_descricao{
+    width: 600px;
+    font-size: 17px;
+    display: flex; 
+    justify-content: start;
+    margin-left: 0;
+
+}
+.container_secundario_img{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.container_secundario_legenda{
+   margin-left: 10px 
+}
+
+.container_secundario_lista p{
+    font-size: 17px;
+
+}
+
+.caixa_container_secundario{
+    margin-top: 55px;
+    width: 100%;
+    
+}
+
+.container_secundario_lista{
+    width: 470px;
+    margin-right: 300px;
+    margin-top: 180px;
+    line-height: 20px;
+
+}
+.container_secundario_descricao_lista {
+    width: 570px;
+    height: 80px;
+ 
+}
+.container_secundario {
+    gap: 50px;
+}
+
+/* terceira seção */
+
+.container_terciario_titulo {
+    font-size: 60px;
+    
+}
+.titulo{
+    width: 100%;
+    margin-top: 0;    
+}
+
+.item {
+    margin-left: 40px;
+    width: 94%;
+    height: 90px;
+    padding-top: 40px;    
+    
+}
+
+}
 /* Layout mobile */
 
 @media screen and (max-width: 412px) {
@@ -629,8 +763,7 @@
     }
 
     .container_img_logo {
-        width: 103px;
-        height: 30px;
+      
         margin-left: 0;
     }
 
