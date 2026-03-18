@@ -722,7 +722,7 @@ html{
     gap: 50px;
 }
 
-/* terceira seção */
+/* terceira section */
 
 .container_terciario_titulo {
     font-size: 60px;
@@ -737,8 +737,17 @@ html{
     margin-left: 40px;
     width: 94%;
     height: 90px;
-    padding-top: 40px;    
+    padding-top: 40px;      
+}
+
+/* Quarta section */
+.container_quartenario_titulo{
+    font-size: 60px;
     
+}
+.container_quartenario_botao{
+    font-size: 20px;
+
 }
 
 }
