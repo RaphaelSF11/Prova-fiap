@@ -2,8 +2,6 @@
 
 <img src="assets/imgs/Desktop_fiap.png" alt="Preview do site FIAP" width="100%">
 
-*Figura 1: Captura de tela do projeto*
-
 ## Sobre o Projeto
 Página institucional moderno para a FIAP, desenvolvido como desafio tecnico.
 - Animações fluidas em CSS/JS
